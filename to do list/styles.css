@@ -1,0 +1,71 @@
+/* Styling for the to-do list application */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f5f9; /* Calming background color */
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff; /* White background for the to-do list container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+li.completed {
+  background-color: #e6ffe6;
+  text-decoration: line-through;
+}
+
+.delete-btn {
+  color: #ff4d4d;
+  cursor: pointer;
+}
+
+#remainingTasks {
+  text-align: center;
+}
+
